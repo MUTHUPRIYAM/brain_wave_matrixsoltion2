@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="index.css" rel="stylesheet">
+</link>
+</head>
+<body>
+    <!----------------NAV BAR--------->
+    <nav>
+        <div class="logo">
+            <h1>Trends</h1>
+        </div>
+
+        <ul class="list">
+            <li>
+
+                <a href="/">Home</a>
+                <a href="./Shop.html">Shop</a>
+                <a  href="./Blogs.html"> Blog</a>
+                <a href="./About.html"> About</a>
+                <a href="./Contact.html">Contact</a>
+                <i class="bi bi-cart-dash"></i>
+            </li>
+
+        </ul>
+
+    </nav>
+    <div class="Trends">
+        <div class="head">
+            <h1>Trends<span>Men'S Wear</span></h1>
+        </div>
+        <div class="carts">
+            <div class="crd">
+                <img src="fashion/coffee-brown-i-dont-crash-printed-t-shirt-on-a-hanger-300x350.png.webp" alt="">
+                <div class="crdtext">
+                    <h2>cotton Trending Shirts</h2>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star-half"></i><br>
+                    <button> Add to cart</button>
+                </div>
+
+
+            </div>
+
+            <div class="crd">
+                <img src="fashion/coffee-brown-i-dont-crash-printed-t-shirt-on-a-hanger-300x350.png.webp" alt="">
+                <div class="crdtext">
+                    <h2>cotton Trending Shirts</h2>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star-half"></i><br>
+                    <button> Add to cart</button>
+                </div>
+
+
+            </div>
+
+
+            <div class="crd">
+                <img src="fashion/black-real-men-dont-need-motors-printed-t-shirt-on-a-hanger-300x350.png.webp" alt="">
+                <div class="crdtext">
+                    <h2>cotton Trending Shirts</h2>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star-half"></i><br>
+
+                    <button> Add to cart</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="Trends">
+            <div class="head">
+                <h1>Trends<span>WOMEN'S Wear</span></h1>
+            </div>
+            <div class="carts">
+                <div class="crd">
+                    <img src="fashion/download (1).jpeg" alt="">
+                    <div class="crdtext">
+                        <h2>cotton Trending Tops</h2>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i><br>
+                        <button> Add to cart</button>
+                    </div>
+
+                </div>
+
+                <div class="crd"> 
+                    <img src="fashion/download (4).jpeg" alt="">
+                    <div class="crdtext">
+                        <h2>cotton Trending Tops</h2>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half" ></i><br>
+                        <button> Add to cart</button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="crd">
+                    <img src="fashion/download (3).jpeg" alt="">
+
+                    <div class="crdtext">
+                        <h2>cotton Trending Tops</h2>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i><br>
+                        <button> Add to cart</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--LETTER-->
+    <div class="letter">
+        <div class="lettertext">
+            <h1>Sign Up For NewLetter</h1>
+            <p>choose Your Dream Dress</p>
+        </div>
+        <div class="inp">
+            <input type="text" placeholder="Enter Email">
+            <button>Sign UP</button>
+        </div>
+    </div><br>
+     <!--FOOTER-->
+     <div class="footer">
+        <div class="footertext">
+            <h2> TRENDS</h2>
+            <p>service</p>
+            <p> Customer</p>
+            <p> Satisfation</p>
+
+
+
+        </div>
+        <div class="footertext">
+            <h2> About US</h2>
+            <p> Address:</p>
+            <p>service</p>
+            <p>Customer</p>
+            <p> Satisfation</p>
+
+
+        </div>
+        <div class="footertext">
+            <h2> CONTACT</h2>
+            <p> 9989790654</p>
+            <p> Customer</p>
+            <p>comming up...</p>
+            <p>NEW Arrival</p>
+
+
+        </div>
+        <div class="footertext">
+            <h2>TREANDDING</h2>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>SHOPS</p>
+
+        </div>
+
+    </div>
+    <script>
+    let carts = [];
+        let totalPrice = 0;
+
+        // Function to add an item to the cart
+        function addToCart(itemName, itemPrice) {
+            // Add item to the cart array
+            carts.push({ name: itemName, price: itemPrice });
+
+            // Update the total price
+            totalPrice += itemPrice;
+
+            // Update the cart display
+            updateCartDisplay();
+        }
+
+        // Function to remove an item from the cart
+        function removeFromCart(index) {
+            // Subtract the item price from the total price
+            totalPrice -= cart[index].price;
+
+            // Remove the item from the cart array
+            carts.splice(index, 1);
+
+            // Update the cart display
+            updateCartDisplay();
+        }
+
+        // Function to update the cart display
+        function updateCartDisplay() {
+            // Get the cart items element
+            const cartItems = document.getElementById('cartItems');
+
+            // Clear the existing cart items
+            cartItems.innerHTML = '';
+
+            // Add each item in the cart to the display
+            carts.forEach((item, index) => {
+                const li = document.createElement('li');
+                li.textContent = `${item.name} - $${item.price}`;
+                const removeButton = document.createElement('button');
+                removeButton.textContent = 'Remove';
+                removeButton.onclick = () => removeFromCart(index);
+                li.appendChild(removeButton);
+                cartItems.appendChild(li);
+            });
+
+            // Update the total price display
+            document.getElementById('totalPrice').textContent = `Total Price: $${totalPrice}`;
+        }
+    </script>
+
+</body>
+</html>

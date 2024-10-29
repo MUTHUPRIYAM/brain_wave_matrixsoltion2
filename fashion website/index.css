@@ -1,0 +1,266 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background: color(#eeee);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 22px;
+
+
+}
+
+nav.logo {
+
+    margin-left: 22px;
+    font-size: 50px;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li i {
+    font-size: 22px;
+}
+
+ul {
+
+    margin-right: 45px;
+    margin-top: 7px;
+}
+
+ul li a {
+    width: auto;
+    margin-inline: 22px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul li #home {
+    color: rgb(5, 167, 167)
+}
+
+ul li a:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+ul li i:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.maintext {
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.maintext h1 {
+    font-size: 64px;
+}
+
+.row {
+    display: flex;
+}
+
+.women {
+
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.top {
+    color: #086666;
+}
+
+.maintext2 {
+    width: 155px;
+    height: 50px;
+    background-color: rgb(4, 140, 140);
+    border: none;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.maintext p {
+    margin-top: 5px;
+}
+
+.maintext2:hover {
+    border: 3px solid rgb(3, 128, 138);
+    background-color: transparent;
+    color: rgb(2, 121, 131);
+}
+
+
+
+.head {
+    text-align: center;
+    padding: 33px;
+    margin-top: 18px;
+}
+
+.head span {
+    color: rgb(5, 77, 77);
+}
+
+.carts {
+    display: flex;
+    justify-content: center;
+}
+
+.carts .crd {
+    width: 400px;
+    height: 600px;
+    background-color: whitesmoke;
+    margin-inline: 7px;
+    padding: 22px;
+
+
+}
+
+.crd img {
+    width: 95%;
+    padding: 20px;
+    border-radius: 45px;
+}
+
+.crdtext {
+    margin-left: 21px;
+    padding: 8px;
+
+}
+
+.crdtext button {
+    width: 130px;
+    height: 33px;
+    border: none;
+    background-color: rgb(8, 110, 110);
+    color: white;
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+.crdtext i {
+    margin-top: 2px;
+    color: rgb(80, 2, 2);
+}
+
+
+.blog {
+    display: block;
+    justify-content: center;
+    width: 500px;
+    height: 700px;
+    background-color: whitesmoke;
+    margin-inline: 22px;
+    border-radius: 11px;
+
+}
+
+.blog img {
+    width: 70%;
+    padding: 22px;
+}
+
+.blog:hover {
+    transition: 0.8s ease;
+    width: 520px;
+    height: 470px;
+}
+
+.blogtext {
+    padding: 5px;
+    margin-top: 2px;
+
+}
+
+.blogtext a {
+    width: 140px;
+    padding: 4px;
+    height: 20px;
+    background-color: rgb(4, 99, 99);
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 36, 36);
+    color: white;
+    padding: 43px;
+}
+
+.inp input {
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+}
+
+.inp button {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(13, 129, 129);
+    color: white;
+    border: none;
+}
+.dress{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 11px;
+    
+}
+.US{
+    text-align: center;
+    background-color: rgb(13, 182, 182);
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 150px;
+}
+.contactus{
+    text-align: center;
+}
+.message{
+font-family:sans-serif;
+font-size: x-large;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+    background-color: black;
+    color: white;
+}
+
+.footertext {
+    margin-inline: 85px;
+}
+
+.footertext p {
+    margin-top: 11px;
+}
